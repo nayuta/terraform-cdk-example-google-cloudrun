@@ -21,4 +21,3 @@ jobs:
           flags: -tee # Add debug flag to reviewdog
           trivy_flags: "" # Optional
           trivy_command: "" # Optional
-          trivy_target: "" # Optional:w

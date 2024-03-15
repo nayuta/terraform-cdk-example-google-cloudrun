@@ -9,6 +9,7 @@ import { CloudRunService } from "./.gen/providers/google/cloud-run-service";
 import { DataGoogleIamPolicy } from "./.gen/providers/google/data-google-iam-policy";
 import { CloudRunServiceIamPolicy } from "./.gen/providers/google/cloud-run-service-iam-policy";
 
+
 class MyStack extends TerraformStack {
   constructor(scope: Construct, name: string) {
     super(scope, name);

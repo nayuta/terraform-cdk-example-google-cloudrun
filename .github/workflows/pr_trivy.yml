@@ -19,5 +19,6 @@ jobs:
           filter_mode: nofilter
           fail_on_error: true
           flags: -tee
+          trivy_command: "fs"
         #   trivy_flags: ""
         #   trivy_command: ""
